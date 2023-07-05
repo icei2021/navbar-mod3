@@ -1,0 +1,18 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    text-decoration:none;
+    list-style-type:none;
+}
+:root{
+    --primary-font:'Open Sans', sans-serif;
+    --secondary-font:'Roboto', sans-serif;;
+    --color-font:#007bff;
+    --color-light:#f8f9fa;
+}
+/*Generales*/
+.container{
+    width: 85%;
+    margin: 0 auto;
+}
