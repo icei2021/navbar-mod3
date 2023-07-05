@@ -71,3 +71,45 @@ html{
 .network-link:hover i{
     transform: scale(1.5);
 }
+
+
+/*Medium*/
+/* 769 - 900*/
+@media only screen and (max-width:900px){
+    .navbar{
+        background-color: #dc3545;
+    }
+    .networks-container{
+        display: none;
+    }
+}
+
+/*Mobile*/
+/* 0 ---- 768 769*/
+@media only screen and (max-width:768px){
+    .logo{
+        margin-bottom: 1em;
+    }
+    .navbar{
+        background-color: #28a745;
+    }
+    .navigation{
+        flex-direction: column;
+    }
+    .navigation-container{
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        margin-bottom: 1em;
+    }
+    .navigation-list{
+        margin-bottom: 0.5em;
+    }
+    
+    .networks-container{
+        display: flex;
+        width: 100%;
+        justify-content: space-evenly;
+    }
+}
+
