@@ -12,7 +12,62 @@
     --color-light:#f8f9fa;
 }
 /*Generales*/
+html{
+    font-size: 16px; /*1rem*/
+}
 .container{
     width: 85%;
     margin: 0 auto;
+}
+
+/*Navigation*/
+.navbar{
+    background-color: var(--color-font);
+    padding: 1.5rem 0;
+}
+.navigation{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    color: var(--color-light);
+    font-size: 1.3rem;
+    font-weight: bold;
+    font-family: var(--primary-font);
+}
+
+.navigation-container{
+    display:flex;
+    justify-content: space-between;
+    width: 45%;
+} 
+.navigation-link{
+    color: var(--color-light);
+    font-size: 1.1rem;
+    font-family: var(--secondary-font);
+    font-weight: 300;
+}
+.navigation-link:hover{
+    text-decoration: underline;
+}
+.networks-container{
+    display: flex;
+    justify-content: space-between;
+    width: 10%;
+}
+
+.network-link{
+    color: var(--color-light);
+    font-size: 1.2rem;
+    opacity: 0.7;
+}
+
+.network-link i{
+    transition:transform 1s ease-in;
+}
+
+.network-link:hover i{
+    transform: scale(1.5);
 }
